@@ -22,7 +22,6 @@ def lesma():
     array_dois.sort(reverse=True)
     array_tres.sort(reverse=True)
 
-    print(array_um)
     resultado = []
     if array_um:
         resultado.append(array_um[0])
@@ -40,6 +39,6 @@ def lesma():
     else:
         resultado.append(0)
 
-    print(resultado)
+    print(str(resultado[0]) + " " + str(resultado[1]) + " " + str(resultado[2]))
 
 lesma()
